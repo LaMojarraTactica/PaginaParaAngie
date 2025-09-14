@@ -1,0 +1,44 @@
+body {
+    background-color: #1571f3;
+}
+p{
+    color: rgba(163, 4, 255, 0.959);
+    font-size: 35px;
+    font-family:"Segoe IU", sans-serif;
+    text-align: center;
+}
+
+div{
+    margin: 0 auto;
+    width:90%;/*width define el ancho de la medida*/
+    background-color: rgb(84, 0, 136);
+    border:2px solid rgb(44, 0, 204);/*el primer dato es el grosor de la linea, el segundo el tipo, y el tercer dato es el color*/
+    box-shadow:2px 2px 25px rgb(57, 1, 69);
+    border-radius:25px;/*efecto de la esquina rendodeada*/
+}
+
+/*configuracion de la imagen*/
+.contenedor {
+    all: revert;
+    margin: 0 auto;
+    width: 80%;
+}
+.contenedor {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;   /* Centra verticalmente */
+}
+    /* Estilo para el contenedor general si usas un div que las envuelve */
+    .contenedor {
+      display: flex;
+      flex-direction: column; /* Apila los elementos verticalmente */
+      gap: 20px; /* Espacio entre imágenes (opcional) */
+    }
+
+    /* Si las imágenes están individualmente en div */
+    .contenedor div {
+      margin-bottom: 15px; /* Espacio entre los divs */
+    }
+img{
+width: 500px;
+}
